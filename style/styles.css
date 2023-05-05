@@ -68,8 +68,8 @@ a:hover {
     text-align: justify;
     text-justify: auto;
     max-width: 155vh;
-    margin-left: 5vh;
-    margin-right: 10vh;
+    /**/margin-left: 5vh;
+    margin-right: 5vh;
 }
 
 .underline_shortcut {
