@@ -4,10 +4,16 @@
     --clr-3: #cc6600;
 }
 
-body {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+@font-face {
+    font-family: "montserat";
+    src: url("../font/Montserrat-VariableFont_wght.ttf");
+}
+
+body, header {
+    font-family: "montserat";
     background: #191817;
     color: white;
+    line-height: 2rem;
 }
 
 html {
@@ -57,13 +63,22 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
 }
-.justify{
+
+.justify {
     text-align: justify;
     text-justify: auto;
+    max-width: 155vh;
+    margin-left: 5vh;
+    margin-right: 15vh;
 }
+
 .underline_shortcut {
     font-weight: bold;
     color: #D1B38B;
+}
+
+.title {
+    font-size: 22px;
 }
 
 h3 {
@@ -143,6 +158,12 @@ br {
     color: white;
 }
 
+#caption{
+    max-width: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .row:after {
     content: "";
     display: table;
@@ -167,14 +188,14 @@ br {
 }
 
 
-.warning{
+.warning {
     font-size: 30px;
-    max-width: 80vh;
+    max-width: 85vh;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
 }
 
-h1{
+h1 {
     font-size: 50px;
 }
