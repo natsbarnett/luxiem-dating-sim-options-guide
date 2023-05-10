@@ -124,9 +124,9 @@ a:hover {
 }
 
 .justify {
-    text-align: justify;
+    /*text-align: justify;
     text-justify: auto;
-    max-width: 155vh;
+    max-width: 155vh;*/
     /**/
     margin-left: 1vh;
     margin-right: 5vh;
